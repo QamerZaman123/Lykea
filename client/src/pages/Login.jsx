@@ -17,7 +17,7 @@ const Login = () => {
     try {
 
       if(currentState === 'Sign Up'){
-        const singnUp = await axios.post(import.meta.env.VITE_BACKEND_URL+'/api/user/register',{name,email,password})
+        const singnUp = await axios.post(backend_url+'/api/user/register',{name,email,password})
         if(singnUp.data.success){
           setToken(singnUp.data.token)
           localStorage.setItem("token",singnUp.data.token)
