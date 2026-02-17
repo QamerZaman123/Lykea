@@ -9,7 +9,7 @@ const List = ({token}) => {
 
   const fetchList = async()=>{
     try {
-      const response = await axios.get(import.meta.VITE_BACKEND_URL+'/api/product/list')
+      const response = await axios.get(import.meta.env.VITE_BACKEND_URL+'/api/product/list')
       if(response.data.success){
         setList(response.data.products)
       }else{
