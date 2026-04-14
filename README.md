@@ -26,9 +26,7 @@ This project is a **role-based e-commerce system** with two independent frontend
 ### 🧑‍💼 Admin Side
 - Product management (CRUD)
 - Order management
-- User management
 - Image upload via Cloudinary
-- Dashboard analytics panel
 
 ---
 
