@@ -6,9 +6,7 @@ A full-stack **MERN e-commerce web application** with separate **Admin Panel** a
 
 ## 🚀 Live Demo
 
-- 🛍️ Customer App: https://your-client-vercel-link.com  
-- 🧑‍💼 Admin Panel: https://your-admin-vercel-link.com  
-- ⚙️ Backend API: https://your-render-backend-link.com  
+- 🛍️ Customer App: (https://lykea-werd.vercel.app/)
 
 ---
 
